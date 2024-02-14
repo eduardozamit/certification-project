@@ -1,10 +1,10 @@
-package com.eduardozamit.certificationproject.modules.students.questions.controller;
+package com.eduardozamit.certificationproject.modules.questions.controller;
 
-import com.eduardozamit.certificationproject.modules.students.questions.dto.AlternativesResultDTO;
-import com.eduardozamit.certificationproject.modules.students.questions.dto.QuestionResultDTO;
-import com.eduardozamit.certificationproject.modules.students.questions.entities.AlternativesEntity;
-import com.eduardozamit.certificationproject.modules.students.questions.entities.QuestionEntity;
-import com.eduardozamit.certificationproject.modules.students.questions.repositories.QuestionRepository;
+import com.eduardozamit.certificationproject.modules.questions.dto.QuestionResultDTO;
+import com.eduardozamit.certificationproject.modules.questions.repositories.QuestionRepository;
+import com.eduardozamit.certificationproject.modules.questions.dto.AlternativesResultDTO;
+import com.eduardozamit.certificationproject.modules.questions.entities.AlternativesEntity;
+import com.eduardozamit.certificationproject.modules.questions.entities.QuestionEntity;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

@@ -1,6 +1,6 @@
-package com.eduardozamit.certificationproject.modules.students.questions.repositories;
+package com.eduardozamit.certificationproject.modules.questions.repositories;
 
-import com.eduardozamit.certificationproject.modules.students.questions.entities.QuestionEntity;
+import com.eduardozamit.certificationproject.modules.questions.entities.QuestionEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
