@@ -1,4 +1,4 @@
-package com.eduardozamit.certificationproject.modules.students.questions.dto;
+package com.eduardozamit.certificationproject.modules.questions.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
